@@ -10,38 +10,7 @@ body {
   color: #fff;
   font-size: 23px;
 }
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: #fafffa;
-}
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-}
-.nav-bar {
-  grid-area: nav;
-  display: grid;
-  align-content: center;
-  margin: 5px 0;
-}
-.nav-bar ul {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 16px;
-  justify-content: center;
-}
-.nav-bar a {
-  font-family: "Arial Narrow Bold", sans-serif;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 0px 0px 10px 10px;
-  animation: studio 5s linear infinite;
-}
+
 /*nome centralizado*/
 .conteudo {
   width: 100%;
